@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <!-- 自定义控件myEditView的最大长度 -->
+   
+    <attr name="maxlength" format="integer" />
+   
+
+</resources>

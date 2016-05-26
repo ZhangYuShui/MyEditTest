@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dip"
+                android:background="#ffffff" >
+                <EditText
+                    android:id="@+id/et"
+                    style="@style/normal_text_dark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dip"
+                    android:layout_marginLeft="@dimen/view_space"
+                    android:layout_marginRight="@dimen/view_space"
+                    android:layout_marginTop="15dip"
+                    android:gravity="top"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingBottom="45dp"
+                    android:background="@drawable/choose_button_bg"
+                    android:minLines="5" />
+                <TextView 
+                    android:id="@+id/tv"
+                    android:layout_marginBottom="15dp"
+                    android:layout_alignBottom="@id/et"
+                    android:layout_marginRight="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    style="@style/normal_text_dark"
+                    android:layout_height="wrap_content"
+                    android:text="0/200"
+                    />
+            </RelativeLayout>

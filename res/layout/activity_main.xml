@@ -1,0 +1,21 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myedittext="http://schemas.android.com/apk/res/com.example.myedittext"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+    <com.example.myedittext.MyEditText
+       android:id="@+id/my_edittext1"
+       android:layout_width="match_parent"
+       myedittext:maxlength="200"
+       android:layout_height="wrap_content" />
+    
+    <com.example.myedittext.MyEditText
+       android:id="@+id/my_edittext2"
+       android:layout_width="match_parent"
+       myedittext:maxlength="100"
+       android:layout_height="wrap_content" />
+
+</LinearLayout>
